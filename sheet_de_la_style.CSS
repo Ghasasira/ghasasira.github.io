@@ -1,0 +1,30 @@
+.sub {
+    background-color: aquamarine;
+    size: 8px;
+}
+
+.add {
+    background-color: antiquewhite;
+    size: 8px;
+}
+
+.submit {
+    background-color: rgb(136, 9, 136);
+}
+
+body {
+    background-color: rgb(221, 233, 197);
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: crimson;
+}
+
+h3 {
+    color: yellow;
+}

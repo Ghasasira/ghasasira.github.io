@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="sheet_de_la_style.CSS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sales...</title>
+</head>
+
+<body>
+    <h1>WELCOME TO SALES ON THE GO</h1>
+    <h3>🛒where all your shoping dreams are fulfilled🛒</h3><br>
+    <form id="form">
+        <div>
+            <p style="text-align:center;">FRUITS SECTION</p><br><br>
+            <div id="item_one">
+                <p>MANGOES</p>
+                <p>price per item: UGX.1200</p>
+                <label for="mango">Quantity</label>
+                <input type="text" size="2" id="mango" class="fruits">
+                <!--button id="m_add" class="add" value="plus">+</button><button id="m_sub" class="sub">-</button>-->
+            </div><br>
+            <div id="item_two">
+                <p>APPLES</p>
+                <p>price per item: UGX.2000</p>
+                <label for="apple">Quantity</label>
+                <input type="text" size="2" id="apple" class="fruits">
+                <!--button id="a_add" class="add">+</button><button id="a_sub" class="sub">-</button-->
+            </div><br>
+            <div id="item_three">
+                <p>ORANGES</p>
+                <p>price per item: UGX.1500</p>
+                <label for="orange">Quantity</label>
+                <input type="text" size="2" id="orange" class="fruits">
+                <!--button id="o_add" class="add">+</button><button id="o_sub" class="sub">-</button-->
+            </div><br>
+            <div name="div">
+                <p>Delivery/pickup</p>
+
+                <input type="radio" value="del" id="del" name="rad">
+                <label for="del">delivery</label><br>
+
+                <input type="radio" value="pic" id="pick" name="rad">
+                <label for="pick">pickup station</label><br>
+
+                <input type="radio" value="col" id="coll" name="rad">
+                <label for="coll">collect from our store</label><br>
+            </div><br><br>
+            <div>
+                <p>addtions</p>
+
+                <input type="checkbox" name="adds" id="bask">
+                <label for="bask">Fruit basket  </label><br>
+
+                <input type="checkbox" name="adds" id="jus">
+                <label for="">Juicer</label><br>
+
+                <input type="checkbox" name="adds" id="pres">
+                <label for="pres">Preservetives</label><br>
+            </div><br><br>
+
+            <div>
+                <button id="btn">get estimated total without transport</button><br>
+                <label for="cart">Items in cart</label>
+                <input type="text" placeholder="0" id="cart" size="2"><br><br>
+                <label for="sum">Total without Transport</label>
+                <input type="text" placeholder=" " id="sum">
+            </div><br>
+
+
+            <br>
+            <!--div id="last">
+                <label for="totalpay">TOTAL PAY</label>
+                <input type="text" id="totalPay">
+                <label> click to est...</label>
+                <input type="submit" value="estimated total">
+            </div-->
+        </div>
+        <div id="lastlast">
+
+        </div>
+    </form>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
